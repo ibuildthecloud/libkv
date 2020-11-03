@@ -10,14 +10,8 @@ import (
 type Backend string
 
 const (
-	// CONSUL backend
-	CONSUL Backend = "consul"
-	// ETCD backend
-	ETCD Backend = "etcd"
-	// ZK backend
-	ZK Backend = "zk"
-	// BOLTDB backend
-	BOLTDB Backend = "boltdb"
+	// JSON backend
+	JSON Backend = "json"
 )
 
 var (
